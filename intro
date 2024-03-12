@@ -1,0 +1,18 @@
+What is Docker?
+Docker is an open platform written in the Go language for developing, shipping, and running applications. It enables applications to separate from the infrastructure which results in better speed. It makes it possible to manage the infrastructure the same as we manage the applications. To achieve this, Docker uses a client-server architecture and has the following components.
+
+Docker Client:
+Docker Client is a way to interact with Docker Daemon(dockerd). 
+Docker Daemon:
+Docker Daemon(dockerd) listens for Docker API requests and manages Docker objects.
+Docker Objects:
+Docker Image:
+It is a read-only template with instructions for creating a Docker container.
+Docker Container:
+It is a runnable instance of a Docker Image.
+Docker Volumes:
+The persisting data generated and used by Docker Containers is stored on Docker Volumes.
+Docker Network:
+Docker Network is a tunnel through which all isolated Docker Containers communicate with each other.
+Docker Registry:
+Docker Registry is a place where Docker Images are stored.
